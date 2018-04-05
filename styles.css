@@ -1,9 +1,55 @@
-#date{
-    display: inline;
-    font-size: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 2rem;
 }
 
-#time{
-    display: inline;
-    font-size: 20px;
+
+body {
+    background: url(watch.jpg) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+.wrap {
+    text-align: center;
+    width: 90%;
+    max-width: 100px;
+}
+
+.widget{
+    text-align: center;
+    width: 40%;
+    max-width: 2em;
+}
+
+.widget h1{
+    display: inline-block;
+     line-height: 1em;
+}
+
+.Date{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3 em;
+    padding: 20px;
+    width: 100%
+}
+
+.clock{
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.seconds-box{
+    display: flex;
 }
